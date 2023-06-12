@@ -1,0 +1,334 @@
+body {
+    padding-top: 60px; /*So That The Content Doesn't Come Under The Navbar*/
+    height: 6000px        
+}
+
+/******* Start Overriding Bootstrap *********/
+
+/* Active Link */
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #E41B17
+}
+
+/* Navbar Link */
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #BBB;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px
+}
+
+/* Brand Name */
+
+.navbar-inverse .navbar-brand {
+    color: #BBB;
+    font-size: 30px;
+    line-height: 40px
+}
+
+.navbar-inverse .navbar-brand span {
+    color: #E41B17
+}
+
+/*DropDown Menu*/
+
+.dropdown-menu {
+    background-color: #333;
+    border-top: 3px solid #E41B17;
+    min-width: 180px
+}
+
+.navbar-right .dropdown-menu {
+    left: 0;
+    right: auto
+}
+
+.dropdown-menu > li > a {
+    color: #fff;
+    padding: 6px 20px;
+    -webkit-transition: padding 0.5s ease;
+    -moz-transition: padding 0.5s ease;
+    -o-transition: padding 0.5s ease;
+    transition: padding 0.5s ease;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    background-color: #E41B17;
+    color: #fff;
+    padding-left: 28px
+}
+
+.dropdown-menu .divider {
+    background-color: #666
+}
+
+/* Navbar Toggle */
+
+.navbar-toggle {
+    margin-top: 18px
+}
+
+/* Carousel */
+
+.carousel-caption {
+    bottom: 120px;
+    background: rgba(3,3,3,0.3);
+    padding-right: 20px;
+    padding-left: 20px
+}
+
+.carousel-indicators {
+    bottom: 0
+}
+
+.carousel-indicators li {
+    height: 12px;
+    width: 12px
+}
+
+.carousel-indicators .active {
+    height: 14px;
+    width: 14px;
+    background-color: #E41B17;
+    border-color: #EEE
+}
+
+/******* End Overriding Bootstrap *********/
+
+/* Start Section About */
+
+.about {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.about .lead {
+    color: #888;
+    font-size: 25px;
+    margin-top: 15px
+}
+
+.about h1, h2 {
+    font-weight: bold
+}
+
+.about h1 span,
+.about h2 span {
+    color: #E41B17
+}
+
+/* End Section About */
+
+/* Start Section Features */
+
+.features {
+    background: #EEE;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.features .feat {
+    margin-bottom: 30px
+}
+
+
+.features .feat p {
+    line-height: 2em
+}
+
+.features h1 {
+    margin-bottom: 50px;
+    font-weight: bold
+}
+
+.features .feat span.glyphicon {
+    font-size: 22px;
+    color: #666
+    
+}
+
+/* End Section Features */
+
+/* Start Testimonials Section */
+
+.testimonials {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.testimonials h1 {
+    margin-bottom: 20px;
+    font-weight: bold
+}
+
+.testimonials .lead {
+    line-height: 2em;
+    margin-bottom: 10px
+}
+
+.testimonials span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #E41B17
+}
+
+.testimonials .carousel-inner {
+    min-height: 160px;
+    
+}
+
+.testimonials .carousel-indicators {
+    position: static;
+    width: 100%;
+    margin-left: auto
+}
+
+.testimonials .carousel-indicators li {
+    text-indent: 0;
+    width: 80px;
+    height: 80px;
+    opacity: 0.7;
+    border: 3px solid #FFF;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.testimonials .carousel-indicators li.active {
+    width: 80px;
+    height: 80px;
+    opacity: 1;
+    background: none;
+    border: 3px solid #E41B17;
+}
+
+.testimonials .carousel-indicators li img {
+    max-width: 100%;
+}
+
+/* End Testimonials Section */
+
+/* Start Section Price Table */
+
+.price_table {
+    background-color: #EEE;
+    padding-top: 40px;
+    padding-bottom: 40px
+}
+
+.price_table h1 {
+    margin-bottom: 40px;
+    font-weight: bold
+}
+
+.price_table .price_box {
+    background-color: #FFF;
+    padding: 10px;
+    border: 1px solid #DDD;
+    margin-bottom: 15px
+}
+
+.price_table .price_box h3 {
+    margin: 5px 0 15px;
+    font-weight: bold
+}
+
+.price_table .price_box:hover p {
+    -webkit-transform: scale(1.1,1.1) rotate(360deg);
+    -moz-transform: scale(1.1,1.1) rotate(360deg);
+    -o-transform: scale(1.1,1.1) rotate(360deg);
+    transform: scale(1.1,1.1) rotate(360deg);
+    border: 2px solid #DFDFDF;
+}
+
+.price_table .price_box p {
+    font-size: 30px;
+    font-weight: bold;
+    color: #666;
+    width: 100px;
+    height: 100px;
+    background-color: #F3F3F3;
+    border-radius: 50%;
+    line-height: 100px;
+    border: 2px solid #FFF;
+    -webkit-transition-duration: 0.7s;
+    -moz-transition-duration: 0.7s;
+    -o-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+}
+
+.price_table .price_box ul {
+    line-height: 250%;
+    font-size: 18px
+}
+
+.price_table .price_box a {
+    margin-bottom: 5px
+}
+
+/* End Section Price Table */
+
+/* Start Section Our Team */
+
+.our_team {
+    background: url(../Imgs/teamani.gif) no-repeat center center fixed;
+    min-height: 600px;
+}
+
+.our_team .team {
+    background: rgba(2,2,2,0.8);
+    color: #FFF;
+    min-height: 600px;
+    padding-top: 40px;
+    padding-bottom: 40px
+}
+
+.our_team h1 {
+    margin-bottom: 60px;
+    font-weight: bold
+}
+
+.our_team .person {
+    margin-bottom: 60px
+}
+
+/* End Section Our Team */
+
+/* Start Section Subscribe */
+
+.subscribe {
+    padding-top: 40px;
+    padding-bottom: 70px;
+    background-color: #EEE;
+}
+
+.subscribe h1 {
+    color: #888;
+    letter-spacing: 2px;
+    margin-bottom: 20px
+}
+
+.subscribe p {
+    margin-bottom: 30px;   
+}
+
+.subscribe .form-control {
+    border-radius: 0;
+    margin-right: -5px;
+    width: 300px
+}
+
+.subscribe button {
+    border-radius: 0
+}
+
+/* End Section Subscribe */
